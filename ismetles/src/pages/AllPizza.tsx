@@ -4,7 +4,7 @@ import apiClient, { BACKEND_URL } from "../api/apiClient";
 
 const AllPizza = () => {
     const [pizzak, setPizzak] = useState<Pizza[]>([]);
-
+fdfgdgfd
     useEffect(() => {
         apiClient
         .get("/pizzak")
