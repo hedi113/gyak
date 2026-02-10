@@ -10,7 +10,7 @@ const AllPizza = () => {
         .then((response) => setPizzak(response.data))
         .catch((result) => console.error(result));
     }, []);
-
+asdasdasd
     return (
       <>
         {pizzak.map((p) => (
