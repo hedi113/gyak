@@ -16,8 +16,8 @@ const EditPizza = () => {
         .then((response) => {
             setNev(response.data.nev ?? "");
             setLeiras(response.data.leiras ?? "");
-            setAr(Number(response.data.ar) ?? "");
-            setImageUrl(response.data.imageUrl ?? "");
+            setAr(Number(response.data.ar) ?? Number(0));
+            setImageUrl(response.data.imageUrl ?? " ");
         })
         .catch((result) => console.error(result));
     }, [id]);
